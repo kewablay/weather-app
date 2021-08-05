@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.nav-bar{
+    background: rgba(0, 0, 0, 0.514);
+    color: white;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+}
+
+.nav-bar li{
+    list-style-type: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 3rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgb(26, 25, 25);
+}
+.nav-bar .brand{
+    color: coral;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px rgb(190, 174, 174);
+
+}
+
+span{
+    color: crimson;
+}
+
+.main-body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 5rem;
+}
+
+.form{
+    margin-top: 3rem;
+    width: 80%;
+}
+
+.box2{
+    width: 50rem;
+    height: 40rem;
+    background-color: rgba(14, 35, 73, 0.479);
+    border-radius: .5rem;   
+    box-shadow: 5px 5px 5px rgba(73, 74, 75, 0.575);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 p, .box2 h3{
+    color: rgb(167, 166, 166);
+    font-weight:500;
+    z-index: 10;
+    text-transform: capitalize;
+}
+
+.box2 .output-area{
+    height: 50%;
+    margin-top: 0;
+}
