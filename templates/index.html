@@ -41,12 +41,14 @@ url({% static 'images/lake.jpg' %}) center/cover fixed no-repeat;">
                  </form>
                  <!--end of form  -->
                  <div class="output-area">
+                     <p style="color: coral; z-index: 1000;">{{ error }}</p>
                      <h3 style="margin-bottom: 2rem;">{{ city }}</h3>
                      <p>country code: {{ country }}</p>
                      <p>coordinates: {{ coordinates }}</p>
                      <p>temp: {{ temperature }}</p>
                      <p>pressure: {{ pressure }}</p>
-                     <p>humidity: {{ humidity}}</p>
+                     <p>humidity: {{ humidity }}</p>
+                     <p>description: {{ weather_desc }}</p>
                  </div>
              </div>
              <!-- end of output display area  -->
