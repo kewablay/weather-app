@@ -5,6 +5,10 @@
     font-family: verdana;
 }
 
+body{
+    height: 100vh;
+}
+
 .nav-bar{
     background: rgba(0, 0, 0, 0.514);
     color: white;
@@ -78,7 +82,7 @@ span{
 
 
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .main-body{
         height: 100vh;
         width: 100vw;
@@ -88,4 +92,4 @@ span{
         width: 100%;
         height: 40%;
     }
-  }
+  } */
