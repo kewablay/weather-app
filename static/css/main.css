@@ -80,11 +80,12 @@ span{
 
 @media (max-width: 480px) {
     .main-body{
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
+        overflow-y: hidden;
     }
     .box2{
         width: 100%;
-        height: 30%;
+        height: 40%;
     }
   }
