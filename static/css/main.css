@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
 }
 
 .nav-bar{
@@ -80,16 +80,3 @@ span{
     margin-top: 0;
 }
 
-
-
-/* @media (max-width: 480px) {
-    .main-body{
-        height: 100vh;
-        width: 100vw;
-        overflow-y: hidden;
-    }
-    .box2{
-        width: 100%;
-        height: 40%;
-    }
-  } */
